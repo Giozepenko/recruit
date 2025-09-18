@@ -30,11 +30,11 @@ const Gallery: React.FC = () => {
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {imagesToShow.map((src, index) => (
-            <div key={index} className="overflow-hidden rounded-lg shadow-lg group">
+            <div key={index} className="bg-[#1e1e1e] border-2 border-green-500 overflow-hidden rounded-lg shadow-lg group">
               <img
                 src={src}
                 alt={`Gallery image ${index + 1}`}
-                className="w-full h-full aspect-square object-cover transform group-hover:scale-110 transition-transform duration-300 ease-in-out"
+                className="w-full h-full aspect-square object-contain transform group-hover:scale-110 transition-transform duration-300 ease-in-out"
                 loading="lazy"
               />
             </div>
