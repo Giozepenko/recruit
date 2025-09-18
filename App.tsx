@@ -8,6 +8,7 @@ import HowToBuy from './components/HowToBuy';
 import TrenchTerms from './components/TrenchTerms';
 import Footer from './components/Footer';
 import CustomCursor from './components/CustomCursor';
+import Gallery from './components/Gallery';
 
 interface PlusOne {
   id: number;
@@ -64,6 +65,7 @@ const App: React.FC = () => {
             </div>
         </section>
         <BringBack />
+        <Gallery />
       </main>
       <Footer />
     </div>
