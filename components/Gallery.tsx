@@ -13,7 +13,13 @@ const Gallery: React.FC = () => {
     'Screenshot_2025-09-18_175224.png',
     'Screenshot_2025-09-18_180604.png',
     'Screenshot_2025-09-18_181252.png',
-    'Screenshot_2025-09-18_182123.png'
+    'Screenshot_2025-09-18_182123.png',
+    'Screenshot 2025-09-18 211253.png',
+    'Screenshot 2025-09-18 211525.png',
+    'Screenshot 2025-09-18 211642.png',
+    'Screenshot 2025-09-18 211738.png',
+    'Screenshot 2025-09-18 211836.png',
+    'Screenshot 2025-09-18 155555.png'
   ];
 
   const imagesToShow = isExpanded ? images : images.slice(0, 6);
@@ -26,7 +32,7 @@ const Gallery: React.FC = () => {
     <section className="py-20 sm:py-28 bg-[#111]">
       <AnimatedSection className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="font-display text-5xl md:text-7xl text-green-400 drop-shadow-md mb-12">
-          GALLERY
+          RECRUITS
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {imagesToShow.map((src, index) => (
