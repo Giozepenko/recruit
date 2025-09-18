@@ -5,7 +5,7 @@ import PillIcon from './icons/PillIcon';
 import dollaSign from './icons/dollasign.png'; // ✅ import your PNG instead
 
 const Header: React.FC = () => {
-  const coinUrl = "https://pump.fun/Will be updated within 5 minutes after launch/check X for CA";
+  const coinUrl = "https://pump.fun/Updated 5 min post-launch/Check X";
 
   return (
     <header className="py-4 px-4 sm:px-6 lg:px-8 bg-[#1a1a1a] bg-opacity-80 backdrop-blur-md sticky top-0 z-50">
