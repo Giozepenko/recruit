@@ -1,7 +1,7 @@
 import React from 'react';
 import AnimatedSection from './AnimatedSection';
 import PillIcon from './icons/PillIcon';
-import HelmetIcon from './icons/HelmetIcon';
+import helmetLogo from './icons/HelmetLogo.svg';
 
 const BringBack: React.FC = () => {
   const coinUrl = "https://pump.fun/Will be updated within 5 minutes after launch/check X for CA";
@@ -14,7 +14,7 @@ const BringBack: React.FC = () => {
         </h2>
         <div className="mt-12 flex justify-center relative">
           <PillIcon className="absolute -top-10 -z-0 w-48 h-48 opacity-20" />
-          <img src="components/icons/HelmetLogo.svg" alt="$RECRUIT Helmet Logo" className="w-full max-w-lg drop-shadow-2xl" />
+          <img src={helmetLogo} alt="$RECRUIT Helmet Logo" className="w-full max-w-lg drop-shadow-2xl" />
         </div>
         <p className="mt-8 text-white text-lg leading-relaxed max-w-2xl mx-auto">
           Pump.fun was built to shake up everything. However, not enough people know about it yet. It is our duty as trenchers to recruit the normies and show them this new amazing world that could change their lives in the long run - the same way it changed our lives.

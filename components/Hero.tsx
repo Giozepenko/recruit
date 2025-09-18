@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import AnimatedSection from './AnimatedSection';
+import helmetLogo from './icons/HelmetLogo.svg';
 
 const Hero: React.FC = () => {
   const [copied, setCopied] = useState(false);
@@ -67,7 +68,7 @@ const Hero: React.FC = () => {
         </h2>
         
         <div className="mt-12 flex justify-center">
-            <img src="components/icons/HelmetLogo.svg" alt="$RECRUIT Helmet Logo" className="w-full max-w-lg drop-shadow-2xl" />
+            <img src={helmetLogo} alt="$RECRUIT Helmet Logo" className="w-full max-w-lg drop-shadow-2xl" />
         </div>
 
         <div className="mt-12 max-w-md mx-auto">
