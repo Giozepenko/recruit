@@ -6,7 +6,7 @@ import LivePumpFunIcon from './icons/PumpFunIcon';
 import dollaSign from './icons/dollasign.png'; // use PNG instead of component
 
 const HowToBuy: React.FC = () => {
-  const coinUrl = "https://pump.fun/Updated 5 min post-launch/Check X";
+  const coinUrl = "https://pump.fun/3xqp9ybyD9ijcwwt2GVja1WFVioFZxgc283Jma2Spump";
 
   const steps = [
     'DOWNLOAD PUMP.FUN',

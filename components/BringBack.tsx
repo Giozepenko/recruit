@@ -4,7 +4,7 @@ import PillIcon from './icons/PillIcon';
 import helmetLogo from './icons/HelmetLogo.svg';
 
 const BringBack: React.FC = () => {
-  const coinUrl = "https://pump.fun/Updated 5 min post-launch/Check X";
+  const coinUrl = "https://pump.fun/3xqp9ybyD9ijcwwt2GVja1WFVioFZxgc283Jma2Spump";
 
   return (
     <section className="py-20 sm:py-32 bg-gradient-to-b from-green-500 to-emerald-600 text-center" style={{backgroundImage: 'url("https://www.transparenttextures.com/patterns/green-gobbler.png")'}}>

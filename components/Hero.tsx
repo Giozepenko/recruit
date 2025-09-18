@@ -6,7 +6,7 @@ const Hero: React.FC = () => {
   const [copied, setCopied] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
-  const contractAddress = 'Updated 5 min post-launch/Check X';
+  const contractAddress = '3xqp9ybyD9ijcwwt2GVja1WFVioFZxgc283Jma2Spump';
 
   const handleCopy = () => {
     navigator.clipboard.writeText(contractAddress).then(() => {
