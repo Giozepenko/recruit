@@ -13,7 +13,7 @@ const Gallery: React.FC = () => {
     'Screenshot_2025-09-18_173850.png',
     'Screenshot 2025-09-19 015539.png',
     '66666666.png',
-    '77777777777777.png',
+    '7777777777777.png',
     '88888888888888888888.png',
     'Screenshot_2025-09-18_175224.png',
     'Screenshot_2025-09-18_180604.png',
