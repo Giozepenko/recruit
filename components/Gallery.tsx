@@ -27,7 +27,8 @@ const Gallery: React.FC = () => {
     'Screenshot 2025-09-18 155555.png',
     '1.png',
     '2.png',
-    '3.png'
+    '3.png',
+    '4.png'
   ];
 
   const imagesToShow = isExpanded ? images : images.slice(0, 6);
