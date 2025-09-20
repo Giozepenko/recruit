@@ -30,7 +30,8 @@ const Gallery: React.FC = () => {
     '3.png',
     '4.png',
     '13.png',
-    '23.png'
+    '23.png',
+    '33.png'
   ];
 
   const imagesToShow = isExpanded ? images : images.slice(0, 6);
