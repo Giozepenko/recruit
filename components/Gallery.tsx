@@ -31,6 +31,13 @@ const Gallery: React.FC = () => {
     '4.png',
     '13.png',
     '23.png',
+    '52.png',
+    '51.png',
+    '45.png',
+    '44.png',
+    '43.png',
+    '42.png',
+    '41.png',
     '33.png'
   ];
 
