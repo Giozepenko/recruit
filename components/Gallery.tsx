@@ -38,7 +38,17 @@ const Gallery: React.FC = () => {
     '43.png',
     '42.png',
     '41.png',
-    '33.png'
+    '33.png',
+    '121.png',
+    '122.png',
+    '123.png',
+    '124.png',
+    '125.png',
+    '126.png',
+    '131.png',
+    '132.png',
+    '133.png',
+    '134.png'
   ];
 
   const imagesToShow = isExpanded ? images : images.slice(0, 6);
@@ -51,7 +61,7 @@ const Gallery: React.FC = () => {
     <section className="py-20 sm:py-28 bg-[#111]">
       <AnimatedSection className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="font-display text-5xl md:text-7xl text-green-400 drop-shadow-md mb-12">
-          55 RECRUITS
+          70 RECRUITS
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           {imagesToShow.map((src, index) => (
